@@ -1,25 +1,39 @@
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif) My name is CYRIL P JOSE
-=====================================================================================================================================
+## Hi there! 👋
 
-I'm Cyril P Jose, a passionate developer from India. I love creating innovative solutions and exploring new technologies. Let's connect and collaborate
+I'm **Cyril P Jose**, a passionate developer from **India**. I love creating innovative solutions and exploring new technologies. Let's connect and collaborate!
 
-* 🌍  I'm based in India
-* ✉️  You can contact me at [cyrilpjose2025@gmail.com](mailto:cyrilpjose2025@gmail.com)
-* 👥  I'm looking to collaborate on Python and C programming projects
+## About Me
 
-<p align="left">
-<a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/c-colored.svg" alt="C" title="C" width="36" height="36" /></a><a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" alt="Python" title="Python" width="36" height="36" /></a><a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/visualstudiocode-colored.svg" alt="VS Code" title="VS Code" width="36" height="36" /></a><a href="https://ubuntu.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/ubuntu-colored.svg" alt="Ubuntu" title="Ubuntu" width="36" height="36" /></a>
-</p>
+I'm a developer based in India, with a keen interest in programming and software development. While I am currently not associated with any company, I enjoy working on personal projects and contributing to the open-source community.
 
-### Socials
+## Skills & Technologies
 
-<p align="left"> <a href="https://www.github.com/cyril-p-jose" target="_blank" rel="noreferrer"> <picture> <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" /> <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" /> <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" title="GitHub" /> </picture> </a></p>
-<a href="https://www.github.com/cyril-p-jose" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/cyril-p-jose?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-### Badges
+[![My Skills](https://skillicons.dev/icons?i=c,pycharm,vscode,github,ubuntu,visualstudio,windows&perline=8)](https://skillicons.dev)
 
-<a href="https://github.com/cyril-p-jose" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyril-p-jose&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+## Top Projects
 
-<b>Top Repositories</b>
 
-<div width="100%" align="center"></div><br /><br /><br /><br /><br /><br /><br />
+
+## GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cyril-p-jose&show_icons=true&hide_title=true&count_private=true&theme=radical)  
+
+- **Public Repositories:** 3  
+- **Followers:** 0  
+- **Following:** 1
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cyril-p-jose&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+
+## Recent Activity
+
+- **Pushed to** [python-projects](https://github.com/cyril-p-jose/python-projects) on **Jan 10, 2026**.  
+- **Pushed to** [C-Programme](https://github.com/cyril-p-jose/C-Programme) on **Jan 10, 2026**.  
+- **Created** a new branch in [cyril-p-jose](https://github.com/cyril-p-jose/cyril-p-jose) on **Jan 10, 2026**.
+
+## Connect with Me
+
+Email:cyrilpjose2025@gmail.com
+
+## Certifications
+
+1.  Certificate on completion of course "PYTHON CODING" at GIOTECH,Piravom
+2. Certificate on completing the"FOUNDATIONAL COURSE IN PYTHON PROGRAMMING" at CodeFobe
+3. Certificate on completing the course "GRAPHICS IN C PROGRAMMING" from Mindluster online learning platform
