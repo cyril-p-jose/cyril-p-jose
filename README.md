@@ -1,39 +1,52 @@
-## Hi there! 👋
+## Hi there 👋
 
-I'm **Cyril P Jose**, a passionate developer from **India**. I love creating innovative solutions and exploring new technologies. Let's connect and collaborate!
+<h1 align="center">I am Cyril P Jose</h1>
+<h3 align="center">First Year CSE Student | BTech | SJCET Palai </h3>
 
-## About Me
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img 
+      src="https://readme-typing-svg.herokuapp.com?size=20&center=true&vCenter=true&width=700&lines=Hi+there...+👋;I+am+Cyril+P+Jose;First+Year+CSE+Student;St+Joseph's+College+of+Engineering+%26+Technology+Palai;Learning+New+Technologies;" 
+      alt="Typing SVG" 
+    />
+  </a>
+</p>
 
-I'm a developer based in India, with a keen interest in programming and software development. While I am currently not associated with any company, I enjoy working on personal projects and contributing to the open-source community.
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
-## Skills & Technologies
+## 🌟 About Me  
 
-[![My Skills](https://skillicons.dev/icons?i=c,pycharm,vscode,github,ubuntu,visualstudio,windows&perline=8)](https://skillicons.dev)
+- 🔭 Currently working on **Web Development**
+- 🌱 I’m learning **HTML, CSS, Python, C, C++, JavaScript**
+- 🎓 **First Year Computer Science Engineering Student**
+- 🤝 Looking to collaborate on **beginner-friendly projects**
+- 📫 Reach me at: **cyrilpjose2025@gmail.com**
 
-## Top Projects
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
+
+## 🔗 Connect With Me  
+
+<p align="left">
+  <a href="https://www.linkedin.com/in/cyril-p-jose-24889737a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
+
+## 💻 Tech Stack  
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,python,c,vscode,pycharm,github&theme=dark" />
+</p>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
 
+# 📈 Contribution Graph  
 
-## GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=cyril-p-jose&show_icons=true&hide_title=true&count_private=true&theme=radical)  
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cyril-p-jose&theme=tokyo-night&hide_border=true&line=00C6FF&point=8A2BE2&area=true)
 
-- **Public Repositories:** 3  
-- **Followers:** 0  
-- **Following:** 1
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cyril-p-jose&layout=compact&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://capsule-render.vercel.app/api?type=rect&height=3&color=0:00C6FF,50:00FF99,100:8A2BE2"/>
 
-## Recent Activity
-
-- **Pushed to** [python-projects](https://github.com/cyril-p-jose/python-projects) on **Jan 10, 2026**.  
-- **Pushed to** [C-Programme](https://github.com/cyril-p-jose/C-Programme) on **Jan 10, 2026**.  
-- **Created** a new branch in [cyril-p-jose](https://github.com/cyril-p-jose/cyril-p-jose) on **Jan 10, 2026**.
-
-## Connect with Me
-
-Email:cyrilpjose2025@gmail.com
-
-## Certifications
-
-1.  Certificate on completion of course "PYTHON CODING" at GIOTECH,Piravom
-2. Certificate on completing the"FOUNDATIONAL COURSE IN PYTHON PROGRAMMING" at CodeFobe
-3. Certificate on completing the course "GRAPHICS IN C PROGRAMMING" from Mindluster online learning platform
+⭐ *As a first-year CSE student, I am focused on learning core computer science concepts and improving consistently.*
