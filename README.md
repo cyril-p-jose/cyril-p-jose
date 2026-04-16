@@ -21,7 +21,7 @@
   <a href="https://cyril-p-jose.github.io/portfolio/">
     <img src="https://img.shields.io/badge/🌐%20Portfolio-ff00cc?style=for-the-badge&logo=vercel&logoColor=white"/>
   </a>
- <a href="https://www.linkedin.com/in/cyril-p-jose-24889737a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+ <a href="www.linkedin.com/in/cyril-p-jose-24889737a">
     <img src="https://img.shields.io/badge/LinkedIn-3333ff?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
 </p>
