@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Input images (profile photo is versioned as a template, but custom ones can be ignored or kept)
+# input/profile-photo.png is tracked as default, but we'll ignore others
+input/*
+!input/profile-photo.png
+
+# User specific or IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local cache
+.rembg/
+.cache/
