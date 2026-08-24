@@ -57,10 +57,10 @@
   <g transform="translate(30, 75)">
     <text class="terminal-text prompt-text" x="0" y="0">$</text>
     <text class="terminal-text cmd-text" x="15" y="0">git log -n 4 --oneline</text>
-    <text class="terminal-text" x="15" y="25">[Aug 15]  PUSHED to Java-Module2-Tutorial8: Commit</text>
-    <text class="terminal-text" x="15" y="47">[Aug 15]  CREATED branch on Java-Module2-Tutorial8</text>
-    <text class="terminal-text" x="15" y="69">[Aug 14]  PUSHED to -Java-Module2-Tutorial7: Commit</text>
-    <text class="terminal-text" x="15" y="91">[Aug 14]  CREATED branch on -Java-Module2-Tutorial7</text>
+    <text class="terminal-text" x="15" y="25">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
+    <text class="terminal-text" x="15" y="47">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
+    <text class="terminal-text" x="15" y="69">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
+    <text class="terminal-text" x="15" y="91">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
 
     <rect class="cursor" x="15" y="103" width="8" height="12" />
   </g>
