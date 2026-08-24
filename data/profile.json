@@ -1,0 +1,60 @@
+{
+  "name": "Cyril P Jose",
+  "username": "cyril-p-jose",
+  "education": "B.Tech Computer Science and Engineering Student",
+  "college": "St. Joseph's College of Engineering and Technology, Palai",
+  "goal": "Aspiring Teacher & Software Developer",
+  "skills": {
+    "languages": ["Java", "Python", "C", "JavaScript"],
+    "frontend": ["HTML", "CSS", "React"],
+    "backend": ["Node.js", "Express", "Flask"],
+    "database": ["MongoDB", "MySQL"],
+    "ai_ml": ["Gemini", "Generative AI", "Computer Vision"],
+    "tools": ["Git", "GitHub", "Google AI Studio"]
+  },
+  "interests": [
+    "Full Stack Development",
+    "Generative AI",
+    "Computer Vision",
+    "Open Source",
+    "AI Engineering",
+    "Software Development"
+  ],
+  "projects": [
+    {
+      "name": "SkyFlow Weather App",
+      "description": "Futuristic Weather visualization and forecasting interface.",
+      "url": "https://github.com/cyril-p-jose/SkyFlow"
+    },
+    {
+      "name": "Driver Monitoring System",
+      "description": "Computer Vision driver drowsiness and distraction detection.",
+      "url": ""
+    },
+    {
+      "name": "AI Career Assistant",
+      "description": "Gemini-powered CV optimizer and mock interview engine.",
+      "url": ""
+    },
+    {
+      "name": "Client Lead Management System",
+      "description": "Full-stack CRM with automated lead score predictive routing.",
+      "url": ""
+    },
+    {
+      "name": "CopyNest AI",
+      "description": "Generative AI copywriting companion and content parser.",
+      "url": ""
+    },
+    {
+      "name": "LocalBiz UGC AI",
+      "description": "Automated user-generated content validation engine for local businesses.",
+      "url": ""
+    },
+    {
+      "name": "n8n Participant Onboarding Automation",
+      "description": "Workflow automation routing onboarding steps dynamically.",
+      "url": ""
+    }
+  ]
+}
