@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="auto">
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 8px;
+    }
+    .header-bar {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 13px;
+      fill: #c9d1d9;
+    }
+    .prompt-text {
+      fill: #58a6ff;
+      font-weight: bold;
+    }
+    .cmd-text {
+      fill: #8b949e;
+    }
+    .activity-title {
+      font-weight: bold;
+      fill: #3fb950;
+    }
+    
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #3fb950;
+    }
+  </style>
+
+  <!-- Window Frame -->
+  <rect class="terminal-bg" x="10" y="10" width="580" height="180" />
+  
+  <!-- Title bar -->
+  <path class="header-bar" d="M 10,18 A 8,8 0 0 1 18,10 L 582,10 A 8,8 0 0 1 582,18 L 590,45 L 10,45 Z" />
+  
+  <!-- Window buttons -->
+  <circle class="circle-red" cx="30" cy="28" r="6" />
+  <circle class="circle-yellow" cx="50" cy="28" r="6" />
+  <circle class="circle-green" cx="70" cy="28" r="6" />
+  
+  <!-- Window Title -->
+  <text class="terminal-text" x="300" y="32" text-anchor="middle" fill="#8b949e">git log --oneline</text>
+
+  <g transform="translate(30, 75)">
+    <text class="terminal-text prompt-text" x="0" y="0">$</text>
+    <text class="terminal-text cmd-text" x="15" y="0">git log -n 4 --oneline</text>
+    <text class="terminal-text" x="15" y="25">[Aug 15]  PUSHED to Java-Module2-Tutorial8: Commit</text>
+    <text class="terminal-text" x="15" y="47">[Aug 15]  CREATED branch on Java-Module2-Tutorial8</text>
+    <text class="terminal-text" x="15" y="69">[Aug 14]  PUSHED to -Java-Module2-Tutorial7: Commit</text>
+    <text class="terminal-text" x="15" y="91">[Aug 14]  CREATED branch on -Java-Module2-Tutorial7</text>
+
+    <rect class="cursor" x="15" y="103" width="8" height="12" />
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 538" width="100%" height="auto">
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 8px;
+    }
+    .header-bar {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 11px;
+      fill: #c9d1d9;
+    }
+    .ascii-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 11.5px;
+      font-weight: bold;
+      fill: #ffffff;
+      white-space: pre;
+    }
+    .green-text {
+      fill: #58a6ff;
+    }
+    .prompt-text {
+      fill: #58a6ff;
+      font-weight: bold;
+    }
+    .cmd-text {
+      fill: #8b949e;
+    }
+    .status-text {
+      fill: #3fb950;
+      font-weight: bold;
+    }
+
+    /* Animation effects */
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #58a6ff;
+    }
+
+    .anim-line-1 {
+      opacity: 0;
+      animation: reveal 0.4s ease-out forwards;
+      animation-delay: 0.2s;
+    }
+    .anim-line-2 {
+      opacity: 0;
+      animation: reveal 0.4s ease-out forwards;
+      animation-delay: 0.8s;
+    }
+    .anim-line-3 {
+      opacity: 0;
+      animation: reveal 0.4s ease-out forwards;
+      animation-delay: 1.4s;
+    }
+    .anim-line-4 {
+      opacity: 0;
+      animation: reveal 0.4s ease-out forwards;
+      animation-delay: 2.0s;
+    }
+    
+    .ascii-art-group {
+      opacity: 0;
+      animation: reveal 1.0s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation-delay: 2.8s;
+    }
+
+    .anim-line-ready {
+      opacity: 0;
+      animation: reveal 0.4s ease-out forwards;
+      animation-delay: 4.0s;
+    }
+  </style>
+
+  <!-- Window Frame -->
+  <rect class="terminal-bg" x="10" y="10" width="500" height="518" />
+  
+  <!-- Title bar -->
+  <path class="header-bar" d="M 10,18 A 8,8 0 0 1 18,10 L 502,10 A 8,8 0 0 1 510,18 L 510,45 L 10,45 Z" />
+  
+  <!-- Window buttons -->
+  <circle class="circle-red" cx="30" cy="28" r="6" />
+  <circle class="circle-yellow" cx="50" cy="28" r="6" />
+  <circle class="circle-green" cx="70" cy="28" r="6" />
+  
+  <!-- Window Title -->
+  <text class="terminal-text" x="260" y="32" text-anchor="middle" fill="#8b949e">cyril@github: ~/profile_pic</text>
+
+  <!-- CLI Prompt animations -->
+  <g class="anim-line-1">
+    <text class="terminal-text prompt-text" x="30" y="75">$</text>
+    <text class="terminal-text cmd-text" x="50" y="75">loading profile_photo.png...</text>
+  </g>
+
+  <g class="anim-line-2">
+    <text class="terminal-text prompt-text" x="30" y="95">&gt;</text>
+    <text class="terminal-text cmd-text" x="50" y="95">rendering grayscale matrix...</text>
+  </g>
+
+  <g class="anim-line-3">
+    <text class="terminal-text prompt-text" x="30" y="115">&gt;</text>
+    <text class="terminal-text cmd-text" x="50" y="115">running contrast equalization (CLAHE)...</text>
+  </g>
+
+  <g class="anim-line-4">
+    <text class="terminal-text prompt-text" x="30" y="135">&gt;</text>
+    <text class="terminal-text cmd-text" x="50" y="135">mapping pixels to character ramp...</text>
+  </g>
+
+  <!-- ASCII Art Output -->
+  <g class="ascii-art-group">
+    <text class="ascii-text" x="30" y="165">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="179">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="193">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="207">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="221">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="235">@@@@@@@@@@@@@@@@@@@@@@@@@@@\|||||@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="249">@@@@@@@@@@@@@@@@@@@@@'.....m@@@@@m....'@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="263">@@@@@@@@@@@@@@@@@@`..h@@@@@@@@@@@@@@@@@...@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="277">@@@@@@@@@@@@@@@@'..@@@@@@@@@@@@@@@@@@@@@@8..@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="291">@@@@@@@@@@@@@@8..@@@@@@@@@@@@@@@@@@@@@@@@@@.. @@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="305">@@@@@@@@@@@@@^..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.`@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="319">@@@@@@@@@@@@@..@@@@@@'  '@@@@@@@@@@....@@@@@@..,@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="333">@@@@@@@@@@@@..@@@@@@@\'''@@@@@@@@@@|...@@@@@@@..@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="347">@@@@@@@@@@@@..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="361">@@@@@@@@@@@@'.@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@..@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="375">@@@@@@@@@@@@@..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@].`@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="389">@@@@@@@@@@@@@..i@@@@@@.@@@@@@@@@@@@@@.h@@@@@@.'@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="403">@@@@@@@@@@@@@@`..@@@@@@8.."@@@@@@"...@@@@@@"..@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="417">@@@@@@@@@@@@@@@@..8@@@@@@@@@@@@@@@@@@@@@@@..@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="431">@@@@@@@@@@@@@@@@@@''.@@@@@@@@@@@@@@@@@@...@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="445">@@@@@@@@@@@@@@@@@@@@@'....m@@@@@@@.....@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="459">@@@@@@@@@@@@@@@@@@@@@@@@@@/'.....|@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="473">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="487">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="501">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="515">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+    <text class="ascii-text" x="30" y="529">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
+  </g>
+
+  <g class="anim-line-ready">
+    <text class="terminal-text prompt-text" x="30" y="563">&gt;</text>
+    <text class="terminal-text status-text" x="50" y="563">SYSTEM ONLINE (ASCII RENDER COMPLETED)</text>
+    <rect class="cursor" x="350" y="553" width="8" height="12" />
+  </g>
+</svg>

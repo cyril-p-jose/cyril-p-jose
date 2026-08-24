@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="auto">
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 8px;
+    }
+    .header-bar {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 13px;
+      fill: #c9d1d9;
+    }
+    
+    .scanlines {
+      fill: url(#scanline-pattern);
+      opacity: 0.05;
+    }
+    
+    /* Neon glow effect and text */
+    .glow-title {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 32px;
+      font-weight: bold;
+      fill: #ffffff;
+      letter-spacing: 2px;
+    }
+    .glow-sub {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 16px;
+      fill: #58a6ff;
+    }
+    
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #58a6ff;
+    }
+  </style>
+
+  <defs>
+    <!-- Grid/Scanline pattern definition -->
+    <pattern id="scanline-pattern" width="100" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="100" y2="0" stroke="#ffffff" stroke-width="1.5" />
+    </pattern>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect class="terminal-bg" x="10" y="10" width="780" height="220" />
+  
+  <!-- Scanline Overlay -->
+  <rect class="scanlines" x="10" y="45" width="780" height="185" rx="8" />
+
+  <!-- Title bar -->
+  <path class="header-bar" d="M 10,18 A 8,8 0 0 1 18,10 L 782,10 A 8,8 0 0 1 782,18 L 790,45 L 10,45 Z" />
+  
+  <!-- Window buttons -->
+  <circle class="circle-red" cx="30" cy="28" r="6" />
+  <circle class="circle-yellow" cx="50" cy="28" r="6" />
+  <circle class="circle-green" cx="70" cy="28" r="6" />
+  
+  <!-- Window Title -->
+  <text class="terminal-text" x="400" y="32" text-anchor="middle" fill="#8b949e">bash --profile --interactive</text>
+
+  <!-- Banner details -->
+  <g transform="translate(60, 110)">
+    <!-- Elegant terminal ascii border representation -->
+    <text class="glow-title" x="0" y="0">CYRIL P JOSE</text>
+    <text class="glow-sub" x="2" y="32">&gt; Aspiring Teacher &amp; Software Developer</text>
+    <rect class="cursor" x="350" y="17" width="10" height="18" />
+  </g>
+
+  <!-- Border bottom subtle status -->
+  <text class="terminal-text" x="60" y="205" fill="#8b949e" font-size="11">System: v1.0.0 | Status: Active</text>
+</svg>

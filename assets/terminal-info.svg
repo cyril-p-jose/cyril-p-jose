@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="auto">
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 2;
+      rx: 8px;
+    }
+    .header-bar {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    .circle-red { fill: #ff5f56; }
+    .circle-yellow { fill: #ffbd2e; }
+    .circle-green { fill: #27c93f; }
+    .terminal-text {
+      font-family: 'Fira Code', 'Courier New', Courier, monospace;
+      font-size: 13px;
+      fill: #c9d1d9;
+    }
+    .key-text {
+      fill: #58a6ff;
+      font-weight: bold;
+    }
+    .val-text {
+      fill: #ffffff;
+    }
+    .title-text {
+      fill: #8b949e;
+    }
+    .border-line {
+      stroke: #30363d;
+      stroke-width: 1;
+    }
+    
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    .cursor {
+      animation: blink 0.8s infinite;
+      fill: #58a6ff;
+    }
+    
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+    .typewriter {
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  </style>
+
+  <!-- Window Frame -->
+  <rect class="terminal-bg" x="10" y="10" width="580" height="340" />
+  
+  <!-- Title bar -->
+  <path class="header-bar" d="M 10,18 A 8,8 0 0 1 18,10 L 582,10 A 8,8 0 0 1 582,18 L 590,45 L 10,45 Z" />
+  
+  <!-- Window buttons -->
+  <circle class="circle-red" cx="30" cy="28" r="6" />
+  <circle class="circle-yellow" cx="50" cy="28" r="6" />
+  <circle class="circle-green" cx="70" cy="28" r="6" />
+  
+  <!-- Window Title -->
+  <text class="terminal-text title-text" x="300" y="32" text-anchor="middle">neofetch --user cyril-p-jose</text>
+
+  <!-- Terminal Info Panel Content -->
+  <g transform="translate(30, 75)">
+    <!-- Header -->
+    <text class="terminal-text val-text" x="0" y="0" font-weight="bold" font-size="14">cyril-p-jose@github</text>
+    <line class="border-line" x1="0" y1="10" x2="520" y2="10" />
+
+    <!-- Details -->
+    <g transform="translate(0, 35)">
+      <text class="terminal-text" x="0" y="0">
+        <tspan class="key-text">OS        : </tspan>
+        <tspan class="val-text">B.Tech Computer Science and Engineering Student</tspan>
+      </text>
+
+      <text class="terminal-text" x="0" y="22">
+        <tspan class="key-text">COLLEGE   : </tspan>
+        <tspan class="val-text">St. Joseph's College of Engineering and Technology, Palai</tspan>
+      </text>
+
+      <text class="terminal-text" x="0" y="44">
+        <tspan class="key-text">ROLE      : </tspan>
+        <tspan class="val-text">Aspiring Teacher & Software Developer</tspan>
+      </text>
+
+      <text class="terminal-text" x="0" y="66">
+        <tspan class="key-text">FOCUS     : </tspan>
+        <tspan class="val-text">AI / Full Stack / CV</tspan>
+      </text>
+
+      <!-- Skill Stack divider line -->
+      <line class="border-line" x1="0" y1="85" x2="520" y2="85" />
+
+      <!-- Skill Categories -->
+      <g transform="translate(0, 105)">
+        <text class="terminal-text" x="0" y="0">
+          <tspan class="key-text">LANGUAGES : </tspan>
+          <tspan class="val-text">Java Python C JavaScript</tspan>
+        </text>
+
+        <text class="terminal-text" x="0" y="20">
+          <tspan class="key-text">FRONTEND  : </tspan>
+          <tspan class="val-text">HTML CSS React</tspan>
+        </text>
+
+        <text class="terminal-text" x="0" y="40">
+          <tspan class="key-text">BACKEND   : </tspan>
+          <tspan class="val-text">Node.js Express Flask</tspan>
+        </text>
+
+        <text class="terminal-text" x="0" y="60">
+          <tspan class="key-text">DATABASE  : </tspan>
+          <tspan class="val-text">MongoDB MySQL</tspan>
+        </text>
+
+        <text class="terminal-text" x="0" y="80">
+          <tspan class="key-text">AI &amp; ML   : </tspan>
+          <tspan class="val-text">Gemini / Generative AI / Computer Vision</tspan>
+        </text>
+      </g>
+
+      <line class="border-line" x1="0" y1="205" x2="520" y2="205" />
+      
+      <text class="terminal-text" x="0" y="225">
+        <tspan class="key-text">STATUS    : </tspan>
+        <tspan class="val-text">Learning &amp; Building...</tspan>
+        <rect class="cursor" x="235" y="213" width="8" height="13" />
+      </text>
+    </g>
+  </g>
+</svg>
