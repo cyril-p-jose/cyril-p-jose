@@ -229,12 +229,13 @@
     <rect class="cell-anim" x="454" y="113" width="14" height="14" fill="#ffffff" rx="2" style="animation-delay: 1.25s" />
     <rect class="cell-anim" x="454" y="131" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.35s" />
     <rect class="cell-anim" x="454" y="149" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.45s" />
+    <rect class="cell-anim" x="454" y="167" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.55s" />
 
     <line class="border-line" x1="0" y1="241" x2="540" y2="241" />
 
     <text class="terminal-text" x="0" y="261">
       <tspan class="metric-name">CURRENT STREAK : </tspan>
-      <tspan class="metric-value">3 DAYS</tspan>
+      <tspan class="metric-value">0 DAYS</tspan>
       <tspan class="metric-name" dx="40">LONGEST STREAK : </tspan>
       <tspan class="metric-value">17 DAYS</tspan>
     </text>
