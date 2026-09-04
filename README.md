@@ -6,7 +6,7 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
 ║  CYRIL@GITHUB                                                                ║
-║  Terminal-inspired developer environment configuration file initialized.    ║
+║  Terminal-inspired developer environment configuration file initialized.     ║
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
