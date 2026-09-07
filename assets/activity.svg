@@ -57,7 +57,7 @@
   <g transform="translate(30, 75)">
     <text class="terminal-text prompt-text" x="0" y="0">$</text>
     <text class="terminal-text cmd-text" x="15" y="0">git log -n 4 --oneline</text>
-    <text class="terminal-text" x="15" y="25">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
+    <text class="terminal-text" x="15" y="25">[Sep 04]  PUSHED to cyril-p-jose: Commit</text>
     <text class="terminal-text" x="15" y="47">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
     <text class="terminal-text" x="15" y="69">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
     <text class="terminal-text" x="15" y="91">[Aug 24]  PUSHED to cyril-p-jose: Commit</text>
