@@ -229,7 +229,8 @@
     <rect class="cell-anim" x="454" y="113" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.25s" />
     <rect class="cell-anim" x="454" y="131" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.35s" />
     <rect class="cell-anim" x="454" y="149" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.45s" />
-    <rect class="cell-anim" x="454" y="167" width="14" height="14" fill="#8b949e" rx="2" style="animation-delay: 1.55s" />
+    <rect class="cell-anim" x="454" y="167" width="14" height="14" fill="#ffffff" rx="2" style="animation-delay: 1.55s" />
+    <rect class="cell-anim" x="454" y="185" width="14" height="14" fill="#30363d" rx="2" style="animation-delay: 1.65s" />
 
     <line class="border-line" x1="0" y1="241" x2="540" y2="241" />
 
@@ -244,7 +245,7 @@
       <tspan class="metric-name">ACTIVE DAYS    : </tspan>
       <tspan class="metric-value">93</tspan>
       <tspan class="metric-name" dx="95">TOTAL COMMITS  : </tspan>
-      <tspan class="metric-value">826</tspan>
+      <tspan class="metric-value">834</tspan>
     </text>
   </g>
 </svg>
