@@ -23,7 +23,7 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-cyril--p--jose-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://cyril-p-jose-portfolio.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-cyril--p--jose-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/cyril-p-jose/)
 [![GitHub](https://img.shields.io/badge/GitHub-cyril--p--jose-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/cyril-p-jose)
-[![Email](https://img.shields.io/badge/Email-cyrilpjose0%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cyrilpjose0@gmail.com)
+[![Email](https://img.shields.io/badge/Email-cyrilpjose2025%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cyrilpjose2025@gmail.com)
 
 <br>
 
