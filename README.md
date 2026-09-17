@@ -71,6 +71,6 @@
 
 <br>
 
-<sub>⚡ Designed with terminal aesthetics &amp; SVG animations · Built for <b><a href="https://github.com/cyril-p-jose">cyril-p-jose</a></b></sub>
+
 
 </div>
