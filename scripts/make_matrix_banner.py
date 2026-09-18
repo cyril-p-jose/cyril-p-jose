@@ -39,7 +39,8 @@ def generate_matrix_svg(filename="assets/matrix-banner.svg", width=860, height=2
             opacity = 1.0 if j == length -1 else 0.4 + (0.5 * (j / length))
             color = "#fff" if j == length - 1 else "#0F0"
             y = j * 14
-            svg.append(f'    <text x="0" y="{y}" class="matrix-text" fill="{color}" opacity="{opacity}">{char}</text>')
+            escaped_char = char.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+            svg.append(f'    <text x="0" y="{y}" class="matrix-text" fill="{color}" opacity="{opacity}">{escaped_char}</text>')
             
         svg.append('  </g>')
 
