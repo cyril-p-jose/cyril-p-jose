@@ -1,5 +1,9 @@
 <div align="center">
 
+<!-- Matrix Cyber Banner -->
+<img src="./assets/matrix-banner.svg" width="860" alt="Matrix Cyber Banner" />
+<br>
+
 <!-- Top Hero Section: Side-by-Side Terminal Windows -->
 <table>
   <tr>
@@ -28,6 +32,34 @@
 <br>
 
 </div>
+
+<!-- Animated Lo-Fi Equalizer -->
+<div align="center">
+  <img src="./assets/equalizer.svg" width="200" alt="Lo-Fi Equalizer" />
+</div>
+<br>
+
+### 💻 Interactive Terminal
+<details>
+  <summary><code>guest@cyril-sys:~$ ./skills.sh</code></summary>
+  <br>
+  <blockquote>
+    <p>Loading skills module...</p>
+    <ul>
+      <li><b>Languages:</b> Python, JavaScript, C++, SQL, Java</li>
+      <li><b>Frameworks:</b> React, Node.js, Next.js, Flask</li>
+      <li><b>Tools:</b> Git, Docker, n8n, Vercel, OpenCV</li>
+    </ul>
+  </blockquote>
+</details>
+
+<details>
+  <summary><code>guest@cyril-sys:~$ ./about.sh</code></summary>
+  <br>
+  <blockquote>
+    <p>Hi, I'm Cyril! I'm a CSE student who loves building AI tools, automation scripts, and full-stack web applications. My goal is to empower others through code and teaching.</p>
+  </blockquote>
+</details>
 
 ---
 
