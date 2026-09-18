@@ -17,7 +17,9 @@
 </table>
 
 ## Cyril P Jose
-**B.Tech CSE Student | Aspiring Teacher & Software Developer**
+<a href="https://github.com/cyril-p-jose">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=Software+Developer;B.Tech+CSE+Student;Empowering+Through+Code;AI+Tools+Builder" alt="Typing SVG" />
+</a>
 
 <p>
   📍 Kerala, India &nbsp;·&nbsp; 🎓 SJCET Palai &nbsp;·&nbsp; 💡 Empowering Through Code &amp; Teaching
@@ -61,6 +63,15 @@
   </blockquote>
 </details>
 
+<br>
+
+### 🛠️ Tech Stack
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,js,cpp,java,react,nodejs,nextjs,html,css,git,docker,linux,vercel,opencv&theme=dark" alt="Skill Icons" />
+  </a>
+</div>
+
 ---
 
 ### 🚀 Featured Projects
@@ -97,6 +108,11 @@
 <div align="center">
 
 ### 📊 GitHub Activity &amp; Contributions
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=cyril-p-jose&theme=radical&show_icons=true&hide_border=true&bg_color=0D1117" alt="Cyril's GitHub Stats" />
+</div>
+<br>
 
 <!-- Animated Contribution Graph -->
 <img src="./assets/contrib-heatmap.svg" width="860" alt="Cyril's GitHub Contribution Calendar" />
