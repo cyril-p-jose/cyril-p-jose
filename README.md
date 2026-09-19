@@ -76,7 +76,7 @@
 
 ### 🔭 Currently Exploring
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI;Web3+%26+Smart+Contracts;Advanced+Java+&+Object+Oriented+Programming; Automation+&+Developer+Tools;JDBC+&+Database+Development;Open+Source;Advanced+Data+Structures" alt="Currently Exploring" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Machine+Learning+and+AI;Web3+and+Smart+Contracts;Advanced+Java+and+Object+Oriented+Programming;+Automation+and+Developer+Tools;JDBC+and+Database+Development;Open+Source;Advanced+Data+Structures" alt="Currently Exploring" />
 </div>
 
 ---
