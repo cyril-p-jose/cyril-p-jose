@@ -48,9 +48,9 @@
   <blockquote>
     <p>Loading skills module...</p>
     <ul>
-      <li><b>Languages:</b> Python, JavaScript, C++, SQL, Java</li>
+      <li><b>Languages:</b> Python, JavaScript, C, SQL, Java</li>
       <li><b>Frameworks:</b> React, Node.js, Next.js, Flask</li>
-      <li><b>Tools:</b> Git, Docker, n8n, Vercel, OpenCV</li>
+      <li><b>Tools:</b> Git, n8n, Vercel, OpenCV</li>
     </ul>
   </blockquote>
 </details>
@@ -68,7 +68,7 @@
 ### 🛠️ Tech Stack
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,cpp,java,react,nodejs,nextjs,html,css,git,docker,linux,vercel,opencv&theme=dark" alt="Skill Icons" />
+    <img src="https://skillicons.dev/icons?i=py,js,c,java,react,nodejs,nextjs,html,css,git,,linux,vercel,opencv&theme=dark" alt="Skill Icons" />
   </a>
 </div>
 
@@ -76,7 +76,7 @@
 
 ### 🔭 Currently Exploring
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI;Web3+%26+Smart+Contracts;Advanced Java & Object-Oriented Programming;Automation & Developer Tools;JDBC & Database Development;Open Source;Advanced+Data+Structures" alt="Currently Exploring" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI;Web3+%26+Smart+Contracts; Advanced+Java+&+Object+Oriented+Programming; Automation+&+Developer+Tools;JDBC+&+Database+Development; Open+Source; Advanced+Data+Structures" alt="Currently Exploring" />
 </div>
 
 ---
