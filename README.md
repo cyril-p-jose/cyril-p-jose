@@ -122,8 +122,8 @@
 </div>
 <br>
 
-<!-- Animated Snake Contribution Graph -->
-<img src="https://raw.githubusercontent.com/cyril-p-jose/cyril-p-jose/output/github-contribution-grid-snake-dark.svg" width="860" alt="GitHub Snake Animation" />
+<!-- Contribution Heatmap Graph -->
+<img src="./assets/contrib-heatmap.svg" width="860" alt="GitHub Contribution Heatmap" />
 
 <br>
 
