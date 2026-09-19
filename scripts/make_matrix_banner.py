@@ -47,7 +47,7 @@ def generate_matrix_svg(filename="assets/matrix-banner.svg", width=860, height=2
     # Add overlay text
     svg.append('  <rect width="100%" height="100%" fill="rgba(0,0,0,0.5)" />')
     svg.append('  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="32" fill="#0f0" font-weight="bold">CYRIL P JOSE</text>')
-    svg.append('  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="16" fill="#fff">SOFTWARE DEVELOPER</text>')
+    svg.append('  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="monospace" font-size="16" fill="#fff">ASPIRING SOFTWARE DEVELOPER</text>')
     
     svg.append('</svg>')
 
