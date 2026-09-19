@@ -72,6 +72,13 @@
   </a>
 </div>
 
+<br>
+
+### 🔭 Currently Exploring
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=00FF00&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI;Web3+%26+Smart+Contracts;Rust+Programming;Advanced+Data+Structures" alt="Currently Exploring" />
+</div>
+
 ---
 
 ### 🚀 Featured Projects
@@ -111,11 +118,12 @@
 
 <div align="center">
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=cyril-p-jose&theme=radical&show_icons=true&hide_border=true&bg_color=0D1117" alt="Cyril's GitHub Stats" />
+  <img src="https://leetcard.jacoblin.cool/cyril-p-jose?theme=dark&font=Fira%20Code&ext=heatmap" alt="LeetCode Stats" />
 </div>
 <br>
 
-<!-- Animated Contribution Graph -->
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Cyril's GitHub Contribution Calendar" />
+<!-- Animated Snake Contribution Graph -->
+<img src="https://raw.githubusercontent.com/cyril-p-jose/cyril-p-jose/output/github-contribution-grid-snake-dark.svg" width="860" alt="GitHub Snake Animation" />
 
 <br>
 
